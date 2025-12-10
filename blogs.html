@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Jay Dhawale - Blogs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="bg-custom">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><i class="fas fa-code me-2"></i>Jay Dhawale</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavBlog" aria-controls="navbarNavBlog" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavBlog">
+                    <ul class="navbar-nav ms-auto align-items-center">
+                        <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-home me-1"></i> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="resume.html"><i class="fas fa-file-alt me-1"></i> Resume</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects.html"><i class="fas fa-project-diagram me-1"></i> Projects</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="blog.html"><i class="fas fa-rss me-1"></i> Blogs</a></li>
+                        <li class="nav-item theme-switch-wrapper">
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox" />
+                                <div class="slider"></div>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h1 class="animate__animated animate__zoomIn">Blogs</h1>
+                <p class="text-muted">Thoughts on cybersecurity, IoT, and learning resources.</p>
+            </div>
+
+            <section class="mb-4">
+                <div class="row g-4">
+                    <!-- Post 1 -->
+                    <div class="col-md-6 col-lg-4">
+                        <article class="card h-100 glass-card">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Digital Personal Data Protection (DPDP) Act, 2023.</h5>
+                                <p class="text-muted mb-2">Published: 2025-02-01 • Tags: Cybersecurity, GRC, Compliance, Regulatory.</p>
+                                <p class="card-text flex-grow-1">India has finally stepped into the era of modern data protection. With the Digital Personal Data Protection Act, 2023 (DPDP Act), the country now has a dedicated privacy law designed to give people more control over their personal information and make organisations more accountable.</p>
+                                <div class="mt-3 d-flex justify-content-between align-items-center">
+                                    <a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#post1Modal">Read More</a>
+                                    <span class="badge bg-secondary">Beginner</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <div class="text-center mt-4">
+                <a href="projects.html" class="btn btn-outline-primary">See Projects</a>
+                <a href="resume.html" class="btn btn-outline-secondary ms-2">View Resume</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Post 1 Modal -->
+    <div class="modal fade" id="post1Modal" tabindex="-1" aria-labelledby="post1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 id="post1Label" class="modal-title">Digital Personal Data Protection (DPDP) Act, 2023.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-muted">Published: 2025-02-01 • Tags: Cybersecurity, GRC, Compliance, Regulatory.</p>
+                    <p>The DPDP Act is India’s first comprehensive law that governs how digital personal data is collected, stored, processed, and shared. The aim is to protect your privacy while allowing businesses to use data responsibly.</p>
+                    <ul>
+                        <li>It was passed by Parliament in August 2023.</li>
+                        <li>It applies to all digital personal data, even if collected offline but later digitised.</li>
+                        <li>It also applies to companies outside India if they offer goods or services to people living here.</li>
+                    </ul>
+                    <p>Before DPDP, India mostly relied on older and limited rules under the IT Act (2000). Those rules couldn’t keep up with modern issues like data leaks, excessive tracking, misuse of personal information, or unclear consent practices.</p>
+                    <ul>
+                        <li>Giving individuals stronger rights over their data.</li>
+                        <li>Setting clear responsibilities for companies.</li>
+                        <li>Introducing penalties for misuse.</li>
+                    </ul>
+                    <p>Key Terms You Should Know</p>
+                    <p>1. Data Principal
+                    That’s you — the person whose data is being collected. <br>
+                    2. Data Fiduciary - Any company, app, website, or government body that decides how and why your data is processed. <br>
+
+                    3. Significant Data Fiduciary (SDF) - Big or high-risk organisations handling sensitive or large amounts of data. They have stricter obligations like appointing a Data Protection Officer (DPO).</p> <br>
+
+                    <p>Your Rights Under the DPDP Act.</p>
+                    <ul>
+                        <li>Right to Information: Companies must clearly tell you what data they collect and why.</li>
+                        <li>Right to Access: You can ask any organisation to show what personal data they hold about you.</li>
+                        <li>Right to Correction and Erasure: If your data is wrong, outdated, or unnecessary, you can request fixes or deletion.</li>
+                        <li>Right to Withdraw Consent: You can say “no” at any time, and they must stop processing your data.</li>
+                        <li>Special Protection for Children: These rights help you take back control in a digital world filled with aggressive data collection.</li><br>
+
+                    <p>What Companies Must Do Under DPDP.</p>
+                    <ul>
+                        <li>1. Collect Only Necessary Data - No more asking for irrelevant details just because they can.</li>
+                        <li>2. Ask for Clear Consent - Your approval must be informed and unambiguous, not hidden behind tricky checkboxes.</li>
+                        <li>3. Use Data Only for the Stated Purpose - If you gave your email for login, it can’t be used for marketing unless you agreed.</li>
+                        <li>4. Keep Your Data Secure - They must implement strong security measures to prevent leaks and breaches.</li>
+                        <li>5. Notify You of Data Breaches - If your data is compromised, they must inform you and the Data Protection Board.</li>
+                        <li>6. Follow Stricter Rules if Classified as SDF - This includes audits, impact assessments, and appointing a DPO in India.</li>
+                    </ul>
+
+                    <p>Penalties: What Happens If Companies Don’t Comply?</p>
+                    <ul>
+                        <li>Fines can go up to ₹250 crore for serious violations.</li>
+                        <li>The Data Protection Board of India will handle complaints and disputes.</li>
+                        <p>This enforcement mechanism ensures your privacy isn’t taken lightly anymore.</p>
+                    </ul>
+
+                    <p>Why the DPDP Act Matters for Everyday Users.</p>
+                    <p>This law is not just for lawyers or tech companies — it affects everyone who uses a phone, website, or digital service.</p>
+                    <ul>
+                        <li>You get more control over your data</li>
+                        <li>Companies can’t misuse or over-collect information.</li>
+                        <li>You have the right to ask questions and demand transparency.</li>
+                        <li>There’s a proper system to complain if your data is mishandled.</li>
+                    </ul><br>
+
+                    <p>Where Does India Go From Here?</p>
+                    <ul>
+                        <p>The Act is expected to evolve. Certain provisions will roll out in phases, and organisations will need time to adapt.But one thing is clear: India is building a strong foundation for digital privacy, and the DPDP Act is just the beginning.</p>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-outline-primary">View Related Resources</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer bg-custom mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+                    <p class="footer-text">© 2025 Jay Dhawale<br>Cybersecurity Specialist</p>
+                </div>
+                <div class="col-md-4 text-center mb-3 mb-md-0">
+                    <ul class="footer-nav list-unstyled d-flex justify-content-center flex-wrap">
+                        <li><a href="index.html" class="footer-link">Home</a></li>
+                        <li><a href="resume.html" class="footer-link">Resume</a></li>
+                        <li><a href="projects.html" class="footer-link">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-center text-md-end">
+                    <ul class="social-icons list-unstyled d-flex justify-content-center justify-content-md-end">
+                        <li><a href="https://instagram.com/jea_hdee" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="mailto:jaydhawale9699@gmail.com" title="Email"><i class="fas fa-envelope"></i></a></li>
+                        <li><a href="https://github.com/jddhawale1" target="_blank" title="GitHub"><i class="fab fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/jay-dhawale-702206222" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
